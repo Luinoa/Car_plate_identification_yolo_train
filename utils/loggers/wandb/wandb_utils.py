@@ -29,7 +29,6 @@ try:
 except (ImportError, AssertionError):
     wandb = None
 
-
 class WandbLogger:
     """
     Log training runs, datasets, models, and predictions to Weights & Biases.
