@@ -1,0 +1,7 @@
+path: ./datasets/
+train: ccpd
+val: ccpd
+
+names:
+  0: blue_plate
+  1: green_plate
