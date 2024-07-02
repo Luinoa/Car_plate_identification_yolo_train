@@ -25,6 +25,7 @@
 在配置好YOLOv5后，执行命令：  
 `python train.py --data ccpd.yaml --weights yolov5n.pt --img 640 --epochs 10 --batch-size 16`  
 即可开始训练。  
+
 你也可以在我们`runs/train/`中的训练过程中的模型的基础上进行训练，结果需要用`export`导出为onnx simplified模型。
 
 ## Runs
